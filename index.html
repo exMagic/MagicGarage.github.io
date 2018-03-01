@@ -6,7 +6,17 @@ title: exGarage
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{{ post.content }}</li>
+		<div class="post">
 
+					<div class="post-heading">
+						<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+						<span>{{ post.date | date_to_string }} by {{ post.author }}</span>
+					</div>
+
+					{{ post.excerpt }}
+
+					<p>&#187; <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">View Post</a></p>
+
+				</div>
 		{% endfor %}
 	</ul>
