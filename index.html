@@ -20,20 +20,4 @@ title: exGarage
 				</div>
 		{% endfor %}
 	</ul>
-	<ul class="posts">
-
-	  {% for project in site.project %}
-		<div class="project">
-
-					<div class="post-heading">
-						<h1><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h1>
-						<span>{{ project.date | date_to_string }} by {{ project.author }}</span>
-					</div>
-
-					{{ post.excerpt }}
-
-					<p>&#187; <a href="{{ site.baseurl }}{{ project.url }}" class="button button-primary">View project</a></p>
-
-				</div>
-		{% endfor %}
-	</ul>
+	
