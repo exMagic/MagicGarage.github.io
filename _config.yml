@@ -1,3 +1,14 @@
-name: exGarage
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+# Site Info
+title:              "exGarage"
+description:        "Place between software and hardware"
+twitter_username:   manuszkiewicz # Your Twitter username here
+github_username:    exmagic # Your GitHub username here
+
+permalink:          /:categories/:title # Post permalink
+
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
