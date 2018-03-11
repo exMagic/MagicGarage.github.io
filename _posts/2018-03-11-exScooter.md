@@ -1,5 +1,10 @@
+---
+layout: page
+title: exScooter
+---
+
 #### Stages of project:  
-###### level 1  
+##### level 1  
 Hardware:  
 1. Arduino Mega as  
 2. ArduinoMain  
@@ -21,7 +26,7 @@ Functions:
 * Read temperature from engine oil radiator and display it on display.  
 * Display time and date on display.
 
-###### level 2  
+##### level 2  
 Hardware:  
 1. Arduino Mega as  
 2. ArduinoMain  
