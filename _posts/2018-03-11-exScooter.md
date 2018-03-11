@@ -4,7 +4,8 @@ title: exScooter
 permalink: /project/exScooter
 ---
 d2
-dev1
+dev1  
+dev2
 #### Stages of project:  
 ##### level 1  
 Hardware:  
@@ -40,3 +41,7 @@ New Functions:
 * <span style="color:green">
 Read 2 axis swing angle plus 3 axis acceleration and display it on a display
 </span>
+
+##### level 3  
+New hardware:
+test element  
