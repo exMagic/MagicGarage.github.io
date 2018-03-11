@@ -3,7 +3,6 @@ layout: page
 title: exScooter
 permalink: /project/exScooter
 ---
-s1
 #### Stages of project:  
 ##### level 1  
 Hardware:  
