@@ -1,7 +1,7 @@
 ---
 layout: page
 title: exScooter
-permalink: /:category/:title
+
 ---
 
 #### Stages of project:  
