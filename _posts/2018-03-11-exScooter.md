@@ -44,7 +44,6 @@ Read 2 axis swing angle plus 3 axis acceleration and display it on a display
 
 ##### level 3  
 New hardware:  
-test element  
 another new element and one more thing
 
 ##### level 4  
