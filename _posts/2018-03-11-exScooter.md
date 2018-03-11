@@ -1,7 +1,7 @@
 ---
 layout: project
 title: exScooter
-
+permalink: /project/exScooter
 ---
 
 #### Stages of project:  
