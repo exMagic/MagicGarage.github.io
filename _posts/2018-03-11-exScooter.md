@@ -3,23 +3,20 @@ layout: page
 title: exScooter
 permalink: /project/exScooter
 ---
-d2
-dev1  
-dev2
+
 #### Stages of project:  
 ##### level 1  
 Hardware:  
-1. Arduino Mega as  
-2. ArduinoMain  
-3. Arduino NANO as ArduinoRPM
-4. Arduino NANO as ArduinoSpeed
-5. rct time  
-6. SD card reader
-7. OLED
-8. Atmega Fuel
-9. Out temp sensor
-10. Oil temp sensor
-11. Button
+1. Arduino Mega as ArduinoMain  
+2. Arduino NANO as ArduinoRPM
+3. Arduino NANO as ArduinoSpeed
+4. rct time  
+5. SD card reader
+6. OLED
+7. Atmega Fuel
+8. Out temp sensor
+9. Oil temp sensor
+10. Button
 
 Functions:  
 
@@ -33,20 +30,9 @@ Functions:
 
 ##### level 2  
 New hardware:  
-* <span style="color:green">
 gyro sensor
-</span>
 
 New Functions:  
-* <span style="color:green">
 Read 2 axis swing angle plus 3 axis acceleration and display it on a display
-</span>
 
-##### level 3  
-New hardware:  
-another new element and one more thing
 
-##### level 4  
-test element2  
-dust  
-inferno
