@@ -2,23 +2,23 @@
 layout: page
 title: exScooter
 categories: Projects
-permalink: /project/exScooter
+permalink: /projects/exScooter
 ---
 
 #### Stages of project:  
 #### level 1  
 Hardware:  
 1. Arduino Mega as ArduinoMain  
-* Arduino NANO as ArduinoRPM
-* Arduino NANO as ArduinoSpeed
-* rct time  
-* SD card reader
-* OLED
-* Atmega Fuel
-* Out temp sensor
-* Oil temp sensor
-* Button  
-* Speed sensor(magnet switch)
+2. Arduino NANO as ArduinoRPM
+3. Arduino NANO as ArduinoSpeed
+4. rct time  
+5. SD card reader
+6. OLED
+7. Atmega Fuel
+8. Out temp sensor
+9. Oil temp sensor
+10. Button  
+11. Speed sensor(magnet switch)
 
 Functions:  
 
@@ -33,11 +33,11 @@ Functions:
 Dashboard screens:
 1. Dashboard
  * time, date, RPM speed, temp, oil temp, fuel
-* Cruise
+2. Cruise
  * time, date, temp
-* Sport
+3. Sport
  * RPM, speed, oil temp
-* Drag
+4. Drag
  * RPM
 
 
@@ -54,11 +54,11 @@ Functions:
 Dashboard screens:
 1. Dashboard
  * time, date, RPM speed, temp, oil temp, fuel
-* Cruise
+2. Cruise
  * time, date, temp
-* Sport
+3. Sport
  * RPM, oil temp
-* Drag
+4. Drag
  * RPM, acceleration, Speed
-* Flight
+5. Flight
  * x angle, y angle, acceleration, break
