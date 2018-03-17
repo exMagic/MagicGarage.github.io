@@ -8,6 +8,20 @@
         {{ link.text }} <div class="pull-right">»</div>
       </a>
     {% endfor %}
+    <ul class="post-list">
+      <p>Projects</p>
+      {%- for post in site.categories.Projects -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <a class="sidebar-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
   </nav>
 
 
