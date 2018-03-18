@@ -1,18 +1,20 @@
 ---
 layout: page
-title:  Categories
-permalink: /categories/
+title:  Projects
+permalink: /projects/
 ---
-<div class="tag-list">
-{% for cat in site.categories %}
-  <div class="tag-group">
-    {% capture cat_name %}{{ cat | first }}{% endcapture %}
-    <h5 class="tag-group-title" id="{{ cat_name | slugize }}">{{ cat_name }}</h5>
-    {% for post in site.categories[cat_name] %}
-    <article class="tag-item">
-      <a class="tag-item-title" href="{{ site.url }}{{ post.url }}">{{post.title}}</a>
-    </article>
-    {% endfor %}
-  </div>
-{% endfor %}
+<div class="projects">
+  <ul class="post-list">
+    {%- for post in site.categories.Projects -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <a class="sidebar-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
 </div>
