@@ -3,22 +3,23 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email: zourenyuan@gmail.com
-description: A simple and awesome blog theme powered by jekyll.
-url: https://renyuanz.github.io/leonids # the base hostname & protocol for your site
-keywords: ["Programming", "PHP", "Ruby"]
+title: Magic garage
+email: maciek.anuszkiewicz@gmail.com
+description: The place between software and hardware
+url: https://exmagic.github.io # the base hostname & protocol for your site
+keywords: ["Programming"]
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Europe/Oslo
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
 permalink:         /articles/:year-:month/:title
+
 
 kramdown:
   auto_ids: true
@@ -35,20 +36,20 @@ kramdown:
 owner:
   name: Maciek
 
-  email: zourenyuan@gmail.com
+  email: maciek.anuszkiewicz@gmail.com
   disqus-shortname: renyuanzblog
-  twitter: renyuan814 #username
+  twitter: MAnuszkiewicz #username
   facebook: #username
   google:
     plus: #username
-    analytics: UA-62251910-2
+    analytics: UA-114923830-1
     verify:
     ad-client:
     ad-slot:
   bing-verify:
   github: exMagic #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: renyuan-zou-69b7038a #username
+  linkedin: renyuan-zou-69b7038a  #username
   xing: #username
   instagram: #username
   lastfm: #username
