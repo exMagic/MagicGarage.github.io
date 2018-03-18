@@ -8,8 +8,6 @@ email: maciek.anuszkiewicz@gmail.com
 
 description: > # this means to ignore newlines until "baseurl:"
     The place between software and hardware
-    That's colection of my small side projects
-    build on Arduino, Raspberry pi and other intresting stuf
 url: https://exmagic.github.io # the base hostname & protocol for your site
 keywords: ["Programming"]
 
