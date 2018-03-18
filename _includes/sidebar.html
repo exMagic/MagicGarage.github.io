@@ -5,7 +5,9 @@
 
   {% endif %}
   <a href="{{ site.url }}/" class="">Magic Garage</a>
-
+  <p class="des">
+    {{site.description}}
+  </p>
   <nav class="nav">
     <ul class="nav-list">
       <li class="nav-item">
@@ -23,4 +25,18 @@
     </ul>
   </nav>
   {% include social-links.html %}
+  <ul class="post-list">
+    <p>Projects</p>
+    {%- for post in site.categories.Projects -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <a class="sidebar-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
 </div>
