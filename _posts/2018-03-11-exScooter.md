@@ -62,3 +62,8 @@ Dashboard screens:
  * RPM, acceleration, Speed
 5. Flight
  * x angle, y angle, acceleration, break
+ 
+ #### level 3  
+
+Functions:  
+* calculate the average of fuel consumptions from distance and fuel tank level logs
